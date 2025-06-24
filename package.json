@@ -5,17 +5,17 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/module.js"
+      "import": "./dist/module.mjs"
     }
   },
   "typesVersions": {
     "*": {
       ".": [
-        "./dist/module.d.ts"
+        "./dist/types.d.mts"
       ]
     }
   },
-  "main": "./dist/module.js",
+  "main": "./dist/module.mjs",
   "files": [
     "dist"
   ],
